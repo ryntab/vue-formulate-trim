@@ -2,7 +2,7 @@
 
 ### Vue Formulate Trim
 
-Vue Formulate Trim allows for better currency input formatting.
+Vue Formulate Trim allows for better string input formatting.
 
 ### Install
 
@@ -24,7 +24,7 @@ import Vue  from  'vue'
 
 import VueFormulate  from  '@braid/vue-formulate'
 
-import FormulateVueTrimPlugin  from  'vue-formulate-currency'
+import FormulateVueTrimPlugin  from  'vue-formulate-string'
 
 Vue.use(VueFormulate, {
 	plugins: [ FormulateVueTrimPlugin ]
