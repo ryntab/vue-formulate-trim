@@ -1,4 +1,4 @@
-<p  align="center"><a  href="https://vueformulate.com"  target="_blank"  rel="noopener noreferrer"><img  width="100"  src="https://assets.wearebraid.com/vue-formulate/logo.png"  alt="VueFormulate"></a></p>
+<p align="center"><a href="https://vueformulate.com" target="_blank" rel="noopener noreferrer"><img  width="100"  src="https://assets.wearebraid.com/vue-formulate/logo.png" alt="VueFormulate"></a></p>
 
 ### Vue Formulate Trim
 
@@ -20,11 +20,11 @@ Add to your vue formulate plugins.
 
 ```js
 
-import Vue  from  'vue'
+import Vue from 'vue'
 
-import VueFormulate  from  '@braid/vue-formulate'
+import VueFormulate from '@braid/vue-formulate'
 
-import FormulateVueTrimPlugin  from  'vue-formulate-string'
+import FormulateVueTrimPlugin from 'vue-formulate-string'
 
 Vue.use(VueFormulate, {
 	plugins: [ FormulateVueTrimPlugin ]
@@ -55,7 +55,7 @@ The styling prop is optional and can be used to add in classes to your input. It
 
 ```js
 
-<FormulateInput  type="trim" :styling="['border-2', 'border-blue-gray-200']"/>
+<FormulateInput type="trim" :styling="['border-2', 'border-blue-gray-200']"/>
 
 ```
 
@@ -63,6 +63,6 @@ or using a string...
 
 ```js
 
-<FormulateInput  type="trim" :styling="border-2 border-blue-gray-200"/>
+<FormulateInput type="trim" :styling="border-2 border-blue-gray-200"/>
 
 ```
