@@ -2,7 +2,7 @@
 
 ### Vue Formulate Trim
 
-Vue Formulate Trim allows for better string input formatting.
+Vue Formulate Trim allows for better string input formatting by allowing you to use `v-model.trim`.
 
 ### Install
 
